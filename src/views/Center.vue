@@ -28,7 +28,7 @@
     },
     methods: {
       onGoTo (value) {
-        window.location.replace('/' + value + '/?path=center')
+        window.location.replace('http://' + value + '.htmlbbs.com/' + value + '/?path=center')
       }
     },
     components: {
